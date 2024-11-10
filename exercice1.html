@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4654/4654607.png"/>
+</head>
+<body>
+<h1>Formulaire d'inscription</h1>
+<form action="" method="post">
+    <fieldset >
+        <legend>inscrption nouveau utilisateur</legend>
+      
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="email">Email:</label>
+        <input type="text" name="email" /><BR><BR><BR>
+        <label for="password">Password:</label>
+        <input type="text" maxlength="8" name="password" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="verifpass">Confirmer le mot de passe:</label>
+        <input type="text" maxlength="8" name="verifpass" /><BR><BR><BR>
+        <label for="adresse">Adresse:</label>
+        <input type="text" name="adresse" />
+        <label for="postal">Code postal:</label>
+        <input type="text" name="postal" /> <BR><BR><BR>
+        <label for="ville">ville</label>
+        <input type="text"  name="ville" />
+        <label for="gouv">Gouvernot</label>
+        <input type="text"  name="gouv" /><BR><BR><BR>
+        <label for="date">Date de naissance:</label>
+          <input  type="date" value="2024-10-21"  min="1976-01-01" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="tel">Tel</label>
+        <input type="tel"  name="tel" placeholder="+216" /><BR><BR>
+
+        <label for="verifpass">Genre:</label>
+        <div>
+            <input type="radio" name="h" />
+            <label for="homme">Homme</label>
+            <input type="radio" name="h" />
+            <label for="femme">Femme</label>
+          </div>
+          <label for="verifpass">Interets:</label>
+            <div>
+                <input type="checkbox" name="sport" />
+                <label for="sport">Sport</label>
+              
+                <input type="checkbox" name="musique" />
+                <label for="musique">Musique</label>
+              </div><BR>  
+                 
+              <button type="submit">Connexion</button><BR> 
+              <a href="index.html">connexion</a>
+
+
+   
+
+
+    </fieldset>
+</form>
+    
+</body>

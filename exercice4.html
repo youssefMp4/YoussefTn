@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset >
+            <legend>inscrption nouveau utilisateur</legend>
+          
+            <label for="nom">Nom:</label>
+            <input minlength="1" maxlength="150" type="text" name="nom" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="nom">Prenom:</label>
+            <input minlength="1" maxlength="50" type="text" name="Prenom"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR><BR><BR>
+            <label for="date">Date de naissance:</label>
+            <input  type="date" value="2024-10-21"  min="1976-01-01"    /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="date">Nationalité:</label>
+            <select id="nationalite" name="nationalite" required>
+                <option value="" disabled selected>-- Sélectionnez votre nationalité --</option>
+                <option value="tunisienne">Tunisienne</option>
+                <option value="algerienne">Algérienne</option>
+                <option value="marocaine">Marocaine</option>
+                <option value="francaise">Française</option>
+                <option value="italienne">Italienne</option>
+                <option value="espagnole">Espagnole</option>
+                <option value="autre">Autre</option>
+              </select><BR><BR><BR>
+              <label for="postal">Adresse postal:</label>
+              <input type="text" name="postal" /> 
+              <label for="email">Email:</label>
+              <input type="text" name="email" /><BR><BR><BR>
+                <label for="tel">Tel</label>
+                <input type="tel"  name="tel" placeholder="+216" />
+                <label for="Diplome">Diplome:</label>
+                    <select id="nationalite" name="nationalite" required>
+                        <option value="" disabled selected>-- Sélectionnez votre nationalité --</option>
+                        <option value="sans">sans</option>
+                        <option value="Bac">Bac</option>
+                        <option value="Bac+2">Bac+2</option>
+                        <option value="Bac+3">Bac+3</option>
+                        <option value="superieur">Supérieur</option>
+                       
+                      </select>
+        
+    </fieldset>
+    </form>
+    
+</body>
+</html>
